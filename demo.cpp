@@ -1,7 +1,7 @@
 #include<iostream>
 
 int main(){
-  std::cout<<"hello world!"<<std::endl;
+  std::cout<<"hello world! I am using the cpp version number: "<<__cplusplus<<std::endl;
 
   int a[] {1,2,3,4,5};
 
