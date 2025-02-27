@@ -43,3 +43,28 @@ string slang = "Hiya";
  - cannot use a range for loop to add elements to vector.
 
 -> other vector operations include: v.empty(), v.size(), v.push_back(), v[n], v1 == v2, v1!=v2, <,<=,>,>=, v1={ }, v1 = v2.
+
+### Iterators
+- An **iterator** is an object that acts like a pointer to elements in a container.
+- Used to access the elements of a container object (such as vector, array, lists, etc.) and string.
+### Using iterators:
+- Iterators contain members such as begin and end, accessed like this: `auto b = v.begin(), e = v.end();`
+- * iter returns a reference to the element
+- iter->mem fetches a member function just like (* iter).mem()
+- ++iter, --iter, iter1 == iter2, iter1 != iter2 are some more operations.
+- .end() returns an iterator pointing to something after the last element
+- .cbegin() and .cend() are used for const_iterator type.
+- to find the mid-point index in a container, do: `auto a = v.begin() + v.size() / 2;`
+## Arrays
+- int arr[4] can hold 4 elements, viz. arr[0], arr[1], arr[2], arr[3].
+- Fixed size version of vectors.
+- Better run time performance than vector. Use vector if you don't.
+- The dimension of the array must be a const_expr.
+- if the dimension is greater than the number of initializers, then default values are initialized to the remaining values (0 for int type, "" for char,etc.)
+- when dealing with char arrays, always leave an extra space for '\0' (null).
+- copy initialization is not allowed
+- int * ptr[10]; is an array of 10 pointers.
+- int (* ptr)[10] = &arr; is a pointer to an array of 10 elements
+- subtracting two pointers like end(arr) - begin(arr) gives a library type named `ptrdiff_t`, similar to the `size_t`, it has machine-specific type.
+
+--> multi-dimensional array is a contiguous memory in C++. They are just an array of arrays and strictly speaking, multi-dimensional arrays don't exist in C++.
