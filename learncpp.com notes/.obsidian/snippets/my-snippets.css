@@ -1,0 +1,11 @@
+.callout[data-callout="rule"] {
+  --callout-color: 139, 111, 191; /* black */
+}
+
+.callout[data-callout="best-practice"] {
+  --callout-color: 30, 180, 100; /* green */
+}
+
+.callout[data-callout="avoid"] {
+  --callout-color: 220, 50, 50; /* red */
+}
