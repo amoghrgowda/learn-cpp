@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapter 11.md",
+                "file": "random.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chapter 11"
+              "title": "random"
             }
           }
         ]
@@ -185,9 +185,10 @@
   },
   "active": "77d5d61a29db0976",
   "lastOpenFiles": [
+    "chapter 11.md",
+    "random.md",
     "chapter 1.md",
     "chapter 0.md",
-    "chapter 11.md",
     "chapter 10.md",
     "chapter 7.md",
     "chapter 8.md",
