@@ -34,7 +34,7 @@ void optimizedApproach(){
 
     std::vector<Vertex> vertices;
 
-    //vertices.reserve(3);
+    vertices.reserve(3);
 
     vertices.emplace_back(1.0f,2.0f,3.0f);
     vertices.emplace_back(4.0f,5.0f,6.0f);
