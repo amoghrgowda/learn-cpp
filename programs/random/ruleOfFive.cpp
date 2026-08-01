@@ -7,8 +7,8 @@ it probably requires all 5 of them: Copy constructor, Copy assignment, Move cons
 
 class IntArray{
 public:
-    int* data;
     size_t size;
+    int* data;
     
     // default constructor
     explicit IntArray(size_t size = 0): size(size), data(size>0?new int[size]:nullptr){
